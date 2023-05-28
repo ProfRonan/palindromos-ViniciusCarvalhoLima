@@ -3,4 +3,3 @@ def is_palindrome(string):
     return limpa_string == limpa_string[::-1]
 
 string = str(input("cheque se é palindromo:\n"))
-print(is_palindrome(string))
